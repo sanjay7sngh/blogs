@@ -1,4 +1,4 @@
 ---
-title: this is a page
+title: Working with fastq file
 ---
-**I am here**
+**Write diffrent approaches to preprocess fastq files**
