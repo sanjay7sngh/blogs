@@ -1,1 +1,1 @@
-The purpose of this blogging site is to strenthen my learning by communication.
+The purpose of this blogging site is to strengthen my learning by written communication.
