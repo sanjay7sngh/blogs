@@ -36,4 +36,6 @@ Classification of Life
 |                 |                                                                                    |     |                                                                               |     |                                                                                   |     |                                                                                                 |     |                                                                                                        |     |                                                                                      |     |                                                                                               |     |
 
 
+**Rank in basic classification**
+Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species, and Strain
 ***
