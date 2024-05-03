@@ -1,5 +1,5 @@
 ---
-title: Reference based RNAseq
+title: Reference Based RNAseq
 date: 2024-04-16
 ---
 
