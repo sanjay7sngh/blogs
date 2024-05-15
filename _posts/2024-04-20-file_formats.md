@@ -28,4 +28,4 @@ During genomic sequence data analysis, we encounter several types of file storin
 
 **Quality control reports:** Output files from quality control tools, such as FastQC reports (.html), provide detailed information about sequence quality metrics, adapter content, and other diagnostic measures.
 
-These are some of the key file formats encountered in NGS data analysis workflows. Understanding their structures and contents is essential for effective processing, analysis, and interpretation of NGS data.
+These are some of the key file formats encountered in NGS data analysis workflows. Understanding the structures and contents of these files are essential for effective processing, analysis, and interpretation of NGS data.
