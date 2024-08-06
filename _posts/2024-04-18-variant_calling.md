@@ -11,7 +11,8 @@ In this article, I have listed steps to identify genome scale variant using the 
 **Note on Genome Reference genome selection:** Write about a set of site to get plant
 reference genome
 
-**Before Starting:** Create index sequence
+**Before Starting:**  Create index sequence
+
     # samtools fasta index
     
     samtools faidx Brassica_juncea.ASM1870372v1.dna.toplevel.fa
