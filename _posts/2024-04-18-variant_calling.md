@@ -11,8 +11,15 @@ In this article, I have listed steps to identify genome scale variant using the 
 **Note on Genome Reference genome selection:** Write about a set of site to get plant
 reference genome
 
-**Before Starting:** 
+**Before Starting:** Create index sequence
+    # samtools fasta index
+    samtools faidx Brassica_juncea.ASM1870372v1.dna.toplevel.fa
+    # bwa-mem2 for alignment index
+    bwa-mem2 index Brassica_juncea.ASM1870372v1.dna.toplevel.fa
+    # Picard CreateSequenceDictionary index for gatk
+    gatk CreateSequenceDictionary  -R Brassica_juncea.ASM1870372v1.dna.toplevel.fa
 
+***
 Steps of Variant calling: Preprocessing Raw data; alignment; Intermediate alignment correct; Variant Calling; Variant Filter 
 
 
