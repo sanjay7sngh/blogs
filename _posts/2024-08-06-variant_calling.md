@@ -1,6 +1,6 @@
 ---
 title: Variant Calling from Plant Resequencing Data
-date: 2024-04-18
+date: 2024-08-06
 ---
  **This will be a comprehensive article on plant variant calling. It is work in PROGRESS.**
 
