@@ -4,11 +4,13 @@ date: 2024-08-06
 ---
  **This will be a comprehensive article on plant variant calling. It is work in PROGRESS.**
 
+**Introduction**
+
 The variant calling is crucial process in genomics to identify variation at genome level that can be used for further analysis like GWAS, population genetics, genotype characterization. Genome Analysis ToolKit (GATK) is a collection of command based tools to identify variants from highthroughput sequencing data.
 
 In this article, I have listed steps to identify genome scale variant using the GATK pipeline from Illumina sequencing data.
 
-**Note on Genome Reference genome selection:** Write about a set of site to get plant
+**Note on Reference genome selection:** Write about a set of site to get plant
 reference genome
 
 **Before Starting:**  Create index sequence
