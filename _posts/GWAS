@@ -1,0 +1,17 @@
+Here’s a **comprehensive table** comparing different GWAS models based on key criteria:  
+
+| **Model**   | **Single-Locus or Multi-Locus** | **Accounts for Population Structure (PCA/Q-matrix)?** | **Accounts for Kinship (K-matrix)?** | **Advantages** | **Disadvantages** | **Best Use Case** |
+|------------|----------------|---------------------------------|----------------------|--------------|----------------|----------------|
+| **GLM (General Linear Model)** | **Single-Locus** | ❌ No | ❌ No | Simple, fast, suitable for small datasets | High false positives due to lack of structure correction | Traits with strong associations, no complex population structure |
+| **MLM (Mixed Linear Model)** | **Single-Locus** | ✅ Yes | ✅ Yes | Corrects population structure and relatedness | Computationally slow for large datasets | Traits influenced by genetic background (structured populations) |
+| **CMLM (Compressed MLM)** | **Single-Locus** | ✅ Yes | ✅ Yes | Faster than MLM, efficient for large datasets | May lose statistical power if compression is too high | Large datasets with structured populations |
+| **MLMM (Multi-Locus Mixed Model)** | **Multi-Locus** | ✅ Yes | ✅ Yes | Handles polygenic traits by including multiple SNPs | More complex computation, needs tuning | Traits controlled by multiple loci |
+| **FarmCPU (Fixed and Random Model Circulating Probability Unification)** | **Multi-Locus** | ✅ Yes | ✅ Yes | Reduces confounding, high power, efficient for large datasets | Can be sensitive to model parameter tuning | Large datasets, polygenic traits with complex inheritance |
+| **BLINK (Bayesian-information and Linkage-disequilibrium Iteratively Nested Keyway)** | **Multi-Locus** | ✅ Yes | ✅ Yes | Faster than FarmCPU, high statistical power | May overcorrect, leading to false negatives | Fast GWAS with high accuracy in large datasets |
+
+### **Key Takeaways:**
+- **Single-locus models** (GLM, MLM, CMLM) are good for detecting **major effect loci** but may miss **polygenic effects**.  
+- **Multi-locus models** (MLMM, FarmCPU, BLINK) **improve detection power** for polygenic traits but require careful tuning.  
+- **FarmCPU and BLINK** are among the most **powerful and efficient models** for large-scale GWAS.  
+
+Would you like an R script to compare these models in practice? 🚀
