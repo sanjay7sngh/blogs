@@ -1,3 +1,7 @@
+---
+title: GWAS models
+date: 2024-04-16
+---
 Comparing different GWAS models based on key criteria:  
 
 | **Model**   | **Single-Locus or Multi-Locus** | **Accounts for Population Structure (PCA/Q-matrix)?** | **Accounts for Kinship (K-matrix)?** | **Advantages** | **Disadvantages** | **Best Use Case** |
