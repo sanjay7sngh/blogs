@@ -1,4 +1,4 @@
-Here’s a **comprehensive table** comparing different GWAS models based on key criteria:  
+Comparing different GWAS models based on key criteria:  
 
 | **Model**   | **Single-Locus or Multi-Locus** | **Accounts for Population Structure (PCA/Q-matrix)?** | **Accounts for Kinship (K-matrix)?** | **Advantages** | **Disadvantages** | **Best Use Case** |
 |------------|----------------|---------------------------------|----------------------|--------------|----------------|----------------|
@@ -14,4 +14,4 @@ Here’s a **comprehensive table** comparing different GWAS models based on key 
 - **Multi-locus models** (MLMM, FarmCPU, BLINK) **improve detection power** for polygenic traits but require careful tuning.  
 - **FarmCPU and BLINK** are among the most **powerful and efficient models** for large-scale GWAS.  
 
-Would you like an R script to compare these models in practice? 🚀
+
